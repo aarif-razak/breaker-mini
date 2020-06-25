@@ -2,7 +2,7 @@ var canvas = document.getElementById("myCanvas");
 var ctx = canvas.getContext("2d");
 var resetGameButton = document.getElementById("resetGame");
 
-checkPageButton.addEventListener('click', function() {
+resetGameButton.addEventListener('click', function() {
     location.reload();
 },false);
 
